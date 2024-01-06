@@ -1,3 +1,21 @@
 :root {
-    
+    --dark: #370031;
+    --yellow: #EDFFAB;
+    --rgb-yellow: 237,255,171;
+    --light-blue: #98DFEA;
+    --rose: rgb(196, 151, 153);
+    --rgb-rose: 196, 151, 153;  /*  58 */
+    --box-shadow:  rgba(220, 214, 107, 0.376) -3px -3px 6px 1px inset, rgba(255, 253, 214, 0.832) 3px 3px 6px 0px inset, rgba(255, 251, 149, 0) 6px 2px 16px 0px, rgba(255, 253, 201, 0) -6px -2px 16px 0px; 
+    --box-shadow-hover: rgba(220, 214, 107, 0.376) -3px -3px 6px 1px inset, rgba(255, 253, 214, 0.832) 3px 3px 6px 0px inset, rgba(255, 251, 149, 0.831) 6px 2px 16px 0px, rgba(255, 253, 201, 0.8) -6px -2px 16px 0px; 
+    --card-shadow-hover:  rgba(255, 251, 149, 0.831) 18px 6px 32px 0px, rgba(255, 253, 201, 0.8) -18px -6px 32px 0px; 
+    --text-shadow-yellow:  rgba(255, 251, 149, 0.831) 6px 2px 16px , rgba(255, 253, 201, 0.8) -6px -2px 16px;
+    --text-shadow-hover: rgba(255, 251, 149, 0.831) 3px 1px 16px , rgba(255, 253, 201, 0.8) -3px -1px 16px;
+    --circle-shadow: rgba(255, 251, 149, 0.831) 6px 2px 16px 0px, rgba(255, 253, 201, 0.8) -6px -2px 16px 0px;
+    --transition-text-shadow: text-shadow 0.4s ease-out;
+    --transition-box-shadow: box-shadow 0.4s ease-out;
+    --transition-text-color: color 0.4s ease-out;
+    --transition-background-color: background-color 0.4s ease-out;
+    --font-family-main: "monarcha", serif;
+    --font-family-secondary: "soleil", sans-serif;
+    --font-family-code: "Fira Code", monospace;
 }

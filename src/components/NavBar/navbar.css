@@ -1,0 +1,21 @@
+/* ------- NAV ------- */
+.navbar {  
+    font-style: normal;
+    color: var(--dark);
+}
+.navbar-brand h3{
+    font-family: var(--font-family-code);
+    font-weight: 800;
+    color: var(--dark);
+    transition: var(--transition-text-shadow);
+}
+.nav-link {
+    font-family: var(--font-family-secondary);
+    font-weight: 600;
+    color: var(--dark);
+    transition: var(--transition-text-shadow); 
+}
+.navbar-brand h3:hover, .nav-link:hover {
+    color: var(--yellow);
+    text-shadow: var(--text-shadow-yellow);
+}
