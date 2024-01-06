@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/Header/NavBar'
 import Home from './components/Home/Home'
 import AboutMe from './components/About/AboutMe'
 // import reactLogo from './assets/react.svg'
