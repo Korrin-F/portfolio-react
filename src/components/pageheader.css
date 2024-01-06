@@ -1,0 +1,16 @@
+/* ------- Section Header ------- */
+.section-header {
+    font-family: var(--font-family-main);
+    color: var(--dark);
+    border-bottom: 4px solid var(--dark);
+    margin-bottom: 4rem;
+    position: relative;
+    justify-content: center;
+}
+.section-header h2 {
+    width: max-content;
+    background-color: white;
+    position: apsolute;
+    z-index: 1;
+    transform: translate(0, 50%);
+}

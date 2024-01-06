@@ -1,13 +1,12 @@
 import avatar from '../../assets/images/woman&deer@.5.png';
-import './about.css'
+import './about.css';
+import PageHeader from '../../components/PageHeader';
 
 function AboutMe() {
   return (
     <section id="about-me" className="w-100 pb-4">
       <section className="container" id="about">
-        <div className="row section-header mx-2 mx-sm-3 mx-m-4 mb-4">
-          <h2 className="display-3 mb-0 ">About Me</h2>
-        </div>
+        <PageHeader name='About Me' />
 
         <div className="row justify-content-center mt-lg-3">
           {/* <!-- image --> */}
