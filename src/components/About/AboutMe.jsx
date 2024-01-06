@@ -1,4 +1,4 @@
-import avatar from '../../assets/images/woman&deer@.5.png';
+import avatar from '../../assets/images/woman&deer@33-redu.png';
 import './about.css';
 import PageHeader from '../../components/PageHeader';
 
