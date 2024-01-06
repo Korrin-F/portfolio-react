@@ -1,0 +1,27 @@
+/* ------- HERO ------- */
+h1 {
+    font-family: var(--font-family-main);
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark);
+}
+h1 span {
+    text-shadow: var(--text-shadow-yellow);
+}
+.hero-cont {
+    background-image: url(../../assets/images/hero-pink-mix2.png);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    /* background-color: rgb(var(--rgb-rose)); */
+}
+.hero-cont h2, h1 span {
+    font-family: var(--font-family-secondary);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--yellow);
+}
+.hero-cont h2 {
+    color: var(--dark);
+}
