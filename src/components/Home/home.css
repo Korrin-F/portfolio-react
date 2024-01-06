@@ -1,11 +1,11 @@
 /* ------- HERO ------- */
-h1 {
+#Korrin {
     font-family: var(--font-family-main);
     font-weight: 700;
     font-style: normal;
     color: var(--dark);
 }
-h1 span {
+#Korrin span {
     text-shadow: var(--text-shadow-yellow);
 }
 .hero-cont {
@@ -14,9 +14,8 @@ h1 span {
     background-position: bottom center;
     background-repeat: no-repeat;
     height: 110vh;
-    /* background-color: rgb(var(--rgb-rose)); */
 }
-.hero-cont h2, h1 span {
+.hero-cont h2, #Korrin span {
     font-family: var(--font-family-secondary);
     font-weight: 500;
     font-style: italic;
