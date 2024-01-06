@@ -1,6 +1,6 @@
 import avatar from '../../assets/images/woman&deer@33-redu.png';
-import './about.css';
-import PageHeader from '../../components/PageHeader';
+import './AboutMe.css';
+import PageHeader from '../SectionHeader/PageHeader';
 
 function AboutMe() {
   return (

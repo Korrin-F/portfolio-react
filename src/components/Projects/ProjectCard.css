@@ -1,0 +1,65 @@
+/* ------- Cards ------- */
+
+.card {
+    border: 8px solid var(--yellow) !important;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: var(--transition-box-shadow);
+    background: linear-gradient(to top, white, #d6bcae 3%, white 7%, var(--yellow));
+}
+.card:hover {
+    border: 8px solid var(--yellow);
+    text-decoration: none;
+    box-shadow: var(--card-shadow-hover);  
+}
+.card-body-work {
+    padding-bottom: 0;
+    color: var(--dark);
+    transition: var(--transition-text-color);
+}
+.card-body-work:hover {
+    color: var(--rose);
+    
+}
+.card-subtitle {
+    font-weight: 600;
+}
+#kangaroo-mouse,
+#baby-deer,
+#hedgehog,
+#hedgehog1,
+#otter,
+#bird {
+    position: relative;
+}
+#kangaroo-mouse {
+    width: 120%;
+    bottom: -2rem;
+    left: -2.1rem;
+}
+#baby-deer {
+    bottom: -.75rem;
+    
+}
+#hedgehog {
+    width: 120%;
+    left: -2.5rem;
+    bottom: -1.5rem;
+}
+#hedgehog1 {
+    width: 120%;
+    bottom: -2.25rem;
+    left: -1rem;
+}
+#otter {
+    width: 120%;
+    left: -2rem;
+    transform: scaleX(-1);
+    margin-top: 1rem;
+}
+#bird {
+    width: 115%;
+    left: -.5rem;
+    bottom: -1rem;
+    transform: scaleX(-1);
+}
