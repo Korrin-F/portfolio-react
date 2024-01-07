@@ -1,4 +1,4 @@
-// import kangaroo from '../../assets/images/kangaroo-rat-d.33-redu.png'
+// import kangarooMouse from '../../assets/images/kangaroo-rat-d.33-redu.png'
 import './ProjectCard.css'
 
 
