@@ -1,0 +1,9 @@
+/* ------- Skills ------- */
+#skills {
+    background-color: var(--dark);
+    /* min-height: 100vh; */
+}
+#skills .section-header {
+    border-bottom-color: var(--rose);
+}
+

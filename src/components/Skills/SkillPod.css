@@ -1,0 +1,15 @@
+#skills h2,
+#skills h3 {
+    background-color: var(--dark);
+}
+#skills h2,
+#skills h3,
+#skills p,
+#skills li {
+    color: var(--rose);
+}
+#skills ul {
+    border: 1px solid var(--rose);
+    /* border-right: 3px solid var(--rose); */
+    border-radius: 10px;
+}

@@ -1,8 +1,14 @@
-import './Projects.css'
+import './Project.css'
 import Projects from "../../components/Projects/Projects";
+import Skills from '../../components/Skills/Skills';
 
 function Project() {
-    return <Projects />
+    return (
+        <>
+        <Skills />
+        <Projects />
+        </>
+    )
 }
 
 export default Project;

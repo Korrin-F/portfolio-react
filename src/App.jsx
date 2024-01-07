@@ -2,7 +2,7 @@ import { useState } from 'react'
 import NavBar from './components/Header/NavBar'
 import Home from './pages/Home/Home'
 import AboutMe from './components/About/AboutMe'
-import Projects from './components/Projects/Projects'
+import Project from './pages/Project/Project'
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <AboutMe />
-      <Projects />
+      <Project />
     </>
   )
 }
