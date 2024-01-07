@@ -1,6 +1,6 @@
 import Hero from '../../components/Home/Hero';
 import NavCards from '../../components/Home/NavCards';
-import './home.css'
+import './Home.css'
 
 function Home(){
 
