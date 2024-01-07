@@ -1,0 +1,22 @@
+
+.value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 390px;
+    height: 210px;
+    position: relative;
+  }
+  .value p {
+    position: relative;
+    z-index: 2;
+  }
+  .value h5 {
+    position: relative;
+    z-index: 2;
+    color: var(--dark);
+    font-weight: 600;
+  }
+

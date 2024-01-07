@@ -1,0 +1,6 @@
+#circle1 {
+    transform: translate(-110%, -70%); /* Center the circle within its parent */
+}
+#circle2 {
+    transform: translate(10%, -50%);
+}
