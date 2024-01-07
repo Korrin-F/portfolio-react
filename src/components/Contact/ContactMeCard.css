@@ -1,0 +1,11 @@
+#contact h3 {
+    background-color: rgb(var(--rgb-rose));
+    width: max-content;
+    position: relative;
+    bottom: -1.2rem;
+}
+.contact-content {
+    border: 3px solid var(--dark);
+    border-radius: 10px;
+    width: max-content;
+}

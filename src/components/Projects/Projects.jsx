@@ -4,7 +4,6 @@ import ProjectCard from './ProjectCard';
 
 
 function Projects() {
-    console.log(projects[0].image);
 
     return (
     //    <!-- My Project Cards-->
@@ -13,10 +12,18 @@ function Projects() {
         <PageHeader name='Projects' />
           
         <div className="row justify-content-evenly ">
-            <ProjectCard id={projects[0].id} title={projects[0].title} subtitle={projects[0].tech} text={projects[0].description} image={projects[0].image} link={projects[0].link} alt={projects[0].alt} />
-           
-          
-
+        {projects.map((project) => (
+                    <ProjectCard
+                        key={project.id}
+                        id={project.id}
+                        title={project.title}
+                        subtitle={project.tech}
+                        text={project.description}
+                        image={`/assets/images/${project.image}`}
+                        link={project.link}
+                        alt={project.alt}
+                    />
+                ))}
         </div>
       </section>
     )

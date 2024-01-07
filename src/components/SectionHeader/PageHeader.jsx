@@ -1,4 +1,4 @@
-import './pageheader.css';
+import './PageHeader.css';
 
 function PageHeader(props) {
     const headerName = props.name;
