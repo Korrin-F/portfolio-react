@@ -16,7 +16,7 @@ const animalImages = {
   bird: bird,
   "fox-dog": fox,
   mouse: mouse
-}
+};
 
 
 function Projects() {
@@ -24,7 +24,7 @@ function Projects() {
     return (
     //    <!-- My Project Cards-->
       <section className="container" id="work">
-        {/* <!-- header --> */}
+
         <PageHeader name='Projects' />
           
         <div className="row justify-content-evenly ">

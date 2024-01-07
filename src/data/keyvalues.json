@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Consolidation",
+        "text": "I enjoy being organised. I am always interested in new ways to consolidate my code and retain a single source of truth.",
+        "circleID": "circle1"
+    },
+    {
+        "title": "Simple Solutions",
+        "text": "I aim for the simplest solutions. I think good code should be light and airy. As I continue to learn the languages, I am doing so with the aim of writing less code to achieve the same results.",
+        "circleID": "circle2"
+    }
+]

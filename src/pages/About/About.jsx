@@ -1,6 +1,6 @@
-import ',/About.css';
+import './About.css';
 import AboutMe from '../../components/About/AboutMe';
-import KeyValues from '../../components/About/KeyValues';
+import KeyValues from '../../components/Values/KeyValues';
 
 function About() {
     return (

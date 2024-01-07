@@ -3,6 +3,7 @@ import NavBar from './components/Header/NavBar'
 import Home from './pages/Home/Home'
 import AboutMe from './components/About/AboutMe'
 import Project from './pages/Project/Project'
+import About from './pages/About/About'
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <>
       <NavBar />
       <Home />
-      <AboutMe />
+      <About />
       <Project />
     </>
   )
