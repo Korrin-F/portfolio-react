@@ -3,9 +3,7 @@ import NavBar from './components/Header/NavBar'
 import Home from './pages/Home/Home'
 import AboutMe from './components/About/AboutMe'
 import Projects from './components/Projects/Projects'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0)

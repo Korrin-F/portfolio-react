@@ -25,3 +25,32 @@ body {
   font-style: normal;
   line-height: 1.5;
   }
+
+  /* ------- BUTTONS ------- */
+.button , .navbar-toggler {
+  /* background-color: var(--yellow); */
+  color: var(--dark); 
+  font-weight: 400;
+  border: 0.1rem solid rgba(196, 151, 153, 0.2) !important;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition-background-color);
+  width: max-content;
+  margin: auto;
+}
+.button:hover, .navbar-toggler:hover {
+  background-color: var(--yellow) !important;
+  font-weight: 400;
+  transition: var(--transition-box-shadow);
+  box-shadow: var(--box-shadow-hover);
+}
+.button:active, .navbar-toggler:active {
+  border: 0.1rem solid rgba(196, 151, 153, 0.2) !important;
+  background-color: var(--yellow) !important;
+  color: var(--dark) !important;
+  box-shadow: var(--box-shadow-hover);
+}
+.navbar-toggler:focus {
+  border: 0.1rem solid rgba(196, 151, 153, 0.2) !important; 
+  box-shadow: var(--box-shadow-hover) !important;
+  background-color: var(--yellow) !important;
+}
