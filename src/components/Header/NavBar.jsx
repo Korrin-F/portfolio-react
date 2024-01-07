@@ -1,4 +1,5 @@
-import './navbar.css';
+import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     const textLogo = "{K:F}";
@@ -14,9 +15,34 @@ function NavBar() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                    <a className="nav-link" aria-current="page" href="#about">About Me</a>
-                    <a className="nav-link" href="#work">Work</a>
-                    <a className="nav-link" href="#contact">Contact</a>
+                    <NavLink
+                        to="/"
+                        end
+                        className="nav-link"
+                    >
+                    Home
+                    </NavLink>
+                    <NavLink
+                        to="about"
+                        end
+                        className="nav-link"
+                    >
+                    About
+                    </NavLink>
+                    <NavLink
+                        to="projects"
+                        end
+                        className="nav-link"
+                    >
+                    Projects
+                    </NavLink>
+                    <NavLink
+                        to="contact"
+                        end
+                        className="nav-link"
+                    >
+                    Contact
+                    </NavLink>
                     </div>
                 </div>
             </div>
