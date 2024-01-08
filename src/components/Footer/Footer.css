@@ -13,7 +13,7 @@
 }
 .footer-link-cont {
     border-left: 3px solid var(--rose);
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 #footer .contact-content {
     border-color: var(--rose);

@@ -21,7 +21,7 @@ function Footer() {
 
             {/* <!-- Links --> */}
             <div className="col-sm-2">
-              <ul className="list-unstyled flex-column justify-content-evenly footer-link-cont my-5 pb-2">
+              <ul className="list-unstyled flex-column justify-content-evenly footer-link-cont my-5 pb-2 ps-2">
                 <li><a className="nav-link" href="#top">Top</a></li>
                 <li>
                     <NavLink
