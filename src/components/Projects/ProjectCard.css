@@ -14,7 +14,7 @@
 }
 .card-body-work {
     padding-bottom: 0;
-    color: var(--dark);
+    color: var(--dark) !important;
     transition: var(--transition-text-color);
 }
 .card-body-work:hover {
