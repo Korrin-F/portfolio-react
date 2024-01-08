@@ -27,9 +27,3 @@
     background-color: var(--rose);
 }
 
-@media only screen and (min-width: 768px) {
-    #skills-header-cont{
-        position: relative;
-        transform: translate(0, -15%);
-    }
-}
