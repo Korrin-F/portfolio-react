@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     const textLogo = "{K:F}";
+    
     return (
        
         <nav className="navbar navbar-expand-lg fixed-top  nav-cont">
