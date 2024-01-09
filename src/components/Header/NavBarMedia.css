@@ -1,5 +1,8 @@
 /* adds styling to the nav menu after the menu items are collapsed */
 @media only screen and (max-width: 992px) {
+    .navbar {
+        background-color: none;
+    }
     .navbar-collapse {
         display: flex;
         justify-content: end;

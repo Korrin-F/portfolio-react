@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavLinkPage(props) {
     const {pageStyle, handleNavHover, handleNavLinkMouseLeave, filePath, page } = props;
-
+    console.log(pageStyle);
     return (
         <NavLink
             to={filePath}

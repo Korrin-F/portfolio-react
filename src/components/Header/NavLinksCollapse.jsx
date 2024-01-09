@@ -3,7 +3,7 @@ import sitepages from "../../data/sitepages.json";
 
 function NavLinksCollapse(props) {
     const {pageStyle, handleNavHover, handleNavLinkMouseLeave} = props;
-
+    console.log("Collapse Container: " + JSON.stringify(pageStyle));
     return (
         <div
           className="collapse navbar-collapse justify-content-lg-end"
@@ -20,7 +20,7 @@ function NavLinksCollapse(props) {
                             key={index}
                             filePath={pagePath}
                             page={pageName}
-                            pageStyles={pageStyle}
+                            pageStyle={pageStyle}
                             handleNavHover={handleNavHover}
                             handleNavLinkMouseLeave={handleNavLinkMouseLeave}
                         />

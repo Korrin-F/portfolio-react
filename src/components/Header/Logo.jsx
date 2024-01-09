@@ -2,6 +2,7 @@
 function Logo(props) {
     const textLogo = "{K:F}";
     const {pageStyle, handleNavHover, handleNavBrandMouseLeave} = props;
+    console.log("Logo Styles: " + JSON.stringify(pageStyle));
     return (
         <a
             className="navbar-brand d-flex align-content-center"
