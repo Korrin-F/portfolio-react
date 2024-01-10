@@ -6,7 +6,7 @@ import aboutme from '../../data/aboutme.json'
 
 function AboutMe() {
   return (
-    <section id="about-me" className="w-100 pb-4">
+    <section id="about-me" className="w-100 pb-4 pt-5">
       <section className="container" id="about">
         <PageHeader name='About Me' />
 

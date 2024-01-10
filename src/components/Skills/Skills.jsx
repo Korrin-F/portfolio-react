@@ -29,7 +29,7 @@ function Skills() {
 
     return (
 
-      <section className="pb-4" id="skills">
+      <section className="pb-4 pt-4" id="skills">
         <section className="container">
             <PageHeader name="Skills" />
             <div className="row justify-content-evenly text-center py-md-2 pt-2">
