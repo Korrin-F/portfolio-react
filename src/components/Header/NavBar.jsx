@@ -11,6 +11,7 @@ function NavBar() {
   const [isSmallScreen, setIsSmallScreen] = useState(
     window.matchMedia('(max-width: 992px)').matches
   );
+  const [collapseKey, setCollapseKey] = useState(0);
   const [isMenuCollapsed, setIsMenuCollapsed] = useState(true);
   const location = useLocation();
   const isHome = location.pathname === '/';
@@ -60,9 +61,14 @@ function NavBar() {
     setIsMenuCollapsed((prev) => !prev); // Toggle the collapse status
   };
 
+  const handleLinkClick = () => {
+    setCollapseKey((prevKey) => prevKey + 1); // Incrementing the key triggers a re-render
+  };
+
   return (
     <nav className="navbar navbar-expand-lg fixed-top nav-cont" 
          style={pageStyles.navbar}
+         key={collapseKey} // Use the key attribute to trigger a re-render
     >
       <div className="container-fluid">
         <Logo
@@ -72,8 +78,8 @@ function NavBar() {
         />
         <MobileToggler 
           navbarTogglerStyle={pageStyles.navbarToggler}
-          isMenuCollapsed={isMenuCollapsed} // Pass the collapse status as a prop
-          onTogglerClick={handleTogglerClick} // Pass the click handler as a prop
+          isMenuCollapsed={isMenuCollapsed} 
+          onTogglerClick={handleTogglerClick} 
         />
         <NavLinksCollapse
           pageStyle={pageStyles.navLink}
@@ -81,6 +87,7 @@ function NavBar() {
           smallNavbarStyle={pageStyles.navbarNav}
           handleNavHover={handleNavHover}
           handleNavLinkMouseLeave={handleNavLinkMouseLeave}
+          handleLinkClick={handleLinkClick} 
         />
       </div>
     </nav>

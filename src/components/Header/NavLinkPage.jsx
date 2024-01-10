@@ -1,8 +1,12 @@
 import { NavLink } from 'react-router-dom';
 
 function NavLinkPage(props) {
-    const {pageStyle, handleNavHover, handleNavLinkMouseLeave, filePath, page } = props;
-    console.log(pageStyle);
+    const {pageStyle, handleNavHover, handleNavLinkMouseLeave, filePath, page, handleLinkClick } = props;
+    const handleClick = (event) => {
+        if (handleLinkClick) {
+            handleLinkClick(); 
+        }
+    };
     return (
         <NavLink
             to={filePath}
@@ -11,6 +15,7 @@ function NavLinkPage(props) {
             style={pageStyle}
             onMouseEnter={handleNavHover}
             onMouseLeave={handleNavLinkMouseLeave}
+            onClick={handleClick}
         >
             {page}
         </NavLink>
