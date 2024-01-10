@@ -100,15 +100,15 @@ const styles = {
         color: 'var(--yellow)',
         textShadow: 'var(--text-shadow-yellow)',
       },
-        navbarCollapse: {
+      navbarCollapse: {
 
-        },
-        navbarNav: {
-          
-        },
-        navbarToggler: {
+      },
+      navbarNav: {
         
-        }
+      },
+      navbarToggler: {
+      
+      }
     },
     aboutSmall: {
       navbar: {

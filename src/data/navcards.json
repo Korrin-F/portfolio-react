@@ -1,0 +1,13 @@
+[ 
+
+    {
+        "title": "About",
+        "location": "about",
+        "text": "Learn more about me and my key values."
+    },
+    {
+        "title": "Projects",
+        "location": "projects",
+        "text": "Discover the technologies I have experience with and review my 6 best projects."
+    }
+]
