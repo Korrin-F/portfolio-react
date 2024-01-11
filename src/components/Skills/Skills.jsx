@@ -30,7 +30,7 @@ function Skills() {
     return (
 
       <section className="pb-4 pt-4" id="skills">
-        <section className="container">
+        <section className="container mt-4">
             <PageHeader name="Skills" />
             <div className="row justify-content-evenly text-center py-md-2 pt-2">
                 {skills.map((skill, index) => (
