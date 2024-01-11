@@ -32,7 +32,6 @@ function AboutMe() {
                   {aboutme.partTwo}
                 </p>
               </div>
-              <ContactMeCard />
             </div>
           </div>
         </div>
