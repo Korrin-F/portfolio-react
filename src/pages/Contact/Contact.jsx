@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ContactMe from '../../components/Contact/ContactMe'
 
 function Contact() {
     useEffect(() => {
@@ -8,6 +9,7 @@ function Contact() {
 
     return (
         <>
+            <ContactMe />
         </>
     )
 }
