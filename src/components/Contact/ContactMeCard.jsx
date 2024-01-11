@@ -39,10 +39,10 @@ function ContactMeCard(props) {
         },
         buttonText: {
             ...styles.buttonText,
-            color: borderTextColor
+            color: borderTextColor,
         }
     };
-
+    console.log(updatedStyles.buttonText.color);
     return (
         
         <div className="d-flex mb-4 mt-1 mt-md-2 mt-lg-0 mt-xxl-4 justify-content-center" 
@@ -57,7 +57,7 @@ function ContactMeCard(props) {
                 </h3>
                 <div 
                 className="row contact-content p-4 py-5 p-sm-5 "
-                style={styles.container}
+                style={updatedStyles.container}
                 >
                     <ContactButton 
                     link={contactme.linkedIn}

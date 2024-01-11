@@ -30,7 +30,7 @@ body {
   /* ------- BUTTONS ------- */
 .button , .navbar-toggler {
   /* background-color: var(--yellow); */
-  color: var(--dark) !important; 
+  /* color: var(--dark) !important;  */
   font-weight: 400;
   border: 0.1rem solid rgba(196, 151, 153, 0.2) !important;
   box-shadow: var(--box-shadow);
@@ -40,6 +40,7 @@ body {
 }
 .button:hover, .navbar-toggler:hover {
   background-color: var(--yellow) !important;
+  color: var(--dark) !important;
   font-weight: 400;
   transition: var(--transition-box-shadow);
   box-shadow: var(--box-shadow-hover);

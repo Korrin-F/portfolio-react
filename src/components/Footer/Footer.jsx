@@ -11,7 +11,10 @@ function Footer() {
 
             {/* <!-- Contact --> */}
             <div className="col-sm-4 text-center">
-                <ContactMeCard />
+                <ContactMeCard 
+                backgroundColor='var(--dark)'
+                borderTextColor='var(--rose)'
+                />
                 <p className="my-auto">Korrin Franklin © 2023</p>
             </div>
 
