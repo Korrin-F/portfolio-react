@@ -28,8 +28,9 @@ function Footer() {
                     const [pageName, pagePath] = Object.entries(page)[0]; // Extract the key-value pair
                      return (
                         <ListLink 
-                        filepath={pagePath}
+                        filePath={pagePath}
                         text={pageName}
+                        key={index}
                         />
                       )
                   })

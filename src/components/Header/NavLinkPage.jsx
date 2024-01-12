@@ -7,7 +7,7 @@ function NavLinkPage(props) {
             handleLinkClick(); 
         }
     };
-    console.log('File path: ' + filePath)
+    
     return (
         <NavLink
             to={filePath}
