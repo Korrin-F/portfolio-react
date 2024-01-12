@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import ContactMeCard from "../Contact/ContactMeCard";
 import './Footer.css'
 import sitepages from '../../data/sitepages.json'
+import ListLink from "./ListLink";
 
 function Footer() {
     return (
@@ -23,42 +24,16 @@ function Footer() {
             <div className="d-flex flex-column justify-content-evenly col-sm-2">
               <ul className="list-unstyled m-auto footer-link-cont my-5 pb-2 ps-2">
                 <li><a className="nav-link" href="#top">Top</a></li>
-                <li>
-                    <NavLink
-                        to="/"
-                        end
-                        className="nav-link"
-                    >
-                    Home
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                        to="about"
-                        end
-                        className="nav-link"
-                    >
-                    About
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                        to="projects"
-                        end
-                        className="nav-link"
-                    >
-                    Projects
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                        to="contact"
-                        end
-                        className="nav-link"
-                    >
-                    Contact
-                    </NavLink>
-                </li>
+                {sitepages.map( (page, index) => {
+                    const [pageName, pagePath] = Object.entries(page)[0]; // Extract the key-value pair
+                     return (
+                        <ListLink 
+                        filepath={pagePath}
+                        text={pageName}
+                        />
+                      )
+                  })
+                }
               </ul>
             </div>
           </div>
