@@ -1,15 +1,15 @@
 [ 
     {
-        "Home": "portfolio-react/"
+        "Home": "/"
     },
     {
-        "About": "portfolio-react/about"
+        "About": "/about"
     },
     {
-        "Projects": "portfolio-react/projects"
+        "Projects": "/projects"
     },
     {
-        "Contact": "portfolio-react/contact"
+        "Contact": "/contact"
     } 
 ]
 

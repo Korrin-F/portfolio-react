@@ -2,7 +2,7 @@ function ContactButton(props) {
     const {link, buttonText, style} = props;
 
     return (
-        <div className="col-6 m-auto">
+        <div className="col-6 ">
             <a 
             className="btn button" 
             href={link} 

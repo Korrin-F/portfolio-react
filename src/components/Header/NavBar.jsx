@@ -14,10 +14,10 @@ function NavBar() {
   const [collapseKey, setCollapseKey] = useState(0);
   const [isMenuCollapsed, setIsMenuCollapsed] = useState(true);
   const location = useLocation();
-  const isHome = location.pathname === 'portfolio-react/';
-  const isAbout = location.pathname === 'portfolio-react/about';
-  const isProjects = location.pathname === 'portfolio-react/projects';
-  const isContact = location.pathname === 'portfolio-react/contact';
+  const isHome = location.pathname === '/';
+  const isAbout = location.pathname === '/about';
+  const isProjects = location.pathname === '/projects';
+  const isContact = location.pathname === '/contact';
 
   useEffect(() => {
     const handleResize = () => {
