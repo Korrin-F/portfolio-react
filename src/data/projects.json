@@ -10,30 +10,30 @@
     },
     {
         "id": "otter",
-        "title": "Title",
-        "tech": "Tech/tech",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "title": "Code Refactor",
+        "tech": "HTML",
+        "description": "This simple website was using non-symantic html elements and a lot of repeated code in the CSS. The HTML elements were changed and the CSS was consolodated.",
         "image": "otter-d@.33-redu.png",
         "alt": "fanciful white and pink otter wearing gold jewellery",
-        "link": ""
+        "link": "https://korrin-f.github.io/m1-challenge-code-refactor-EDx/"
     },
     {
         "id": "hedgehog1",
-        "title": "Title",
-        "tech": "Tech/tech",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "title": "Earthquake Data Analysis",
+        "tech": "Python/Numpy/Pandas/Matplotlib",
+        "description": "This is an exploration of earthquake data of one month. I analyse the data and make some reference charts that quickly tell me infomration about the column's data. After cleaning and running test I explore data accuracy of reports from all the sysmic networks. I also make some charts showing the volume of earthquakes by reported magnitude..",
         "image": "hedgehog1-d.25-redu.png",
         "alt": "fanciful white and pink hedgehog wearing gold jewellery",
-        "link": ""
+        "link": "https://github.com/Korrin-F/tDA_Eathquake_Data_Analysis/blob/main/earthquake_analysis.ipynb"
     },
     {
         "id": "bird",
-        "title": "Title",
-        "tech": "Tech/tech",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "title": "MUD Game",
+        "tech": "Python/Jupyter",
+        "description": "A mini MUD game made using python and played in an IDE. The text per room is displayed at a slowed pace as it may be shown in a deployed app along with nice spacing. The keyboard controls your movements using WSAD keys for north, south, east and west.",
         "image": "bird-d@.33-redu.png",
         "alt": "fanciful white and pink bird wearing gold jewellery",
-        "link": ""
+        "link": "https://github.com/Korrin-F/tDA_text_based_adventure_game"
     },
     {
         "id": "fox-dog",
